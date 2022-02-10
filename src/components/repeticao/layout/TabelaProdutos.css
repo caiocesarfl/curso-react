@@ -1,0 +1,29 @@
+table {
+    border: 3px groove black;
+    width: 100%;
+}
+
+th {
+background-color: #0f3d3dee;
+color: white;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+.Par {
+    background-color: #ccc;
+}
+
+#item {
+    width: 60px;
+}
+
+#nome {
+    width: 250px;
+}
+
+#valor {
+    width: 130px;
+}

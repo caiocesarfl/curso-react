@@ -1,6 +1,10 @@
 import React from "react";
 import "./App.css";
 
+import UsuarioInfo from "./components/condicional/UsuarioInfo";
+import ParOuImpar from "./components/condicional/ParOuImpar";
+import TabelaProdutos from "./components/repeticao/TabelaProdutos"
+import ListaAlunos from "./components/repeticao/ListaAlunos";
 import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro"
 import Primeiro from './components/basicos/Primeiro'
@@ -8,14 +12,23 @@ import ComParametro from './components/basicos/ComParametro';
 import Fragment from './components/basicos/Fragment';
 import Aleatorio from './components/basicos/Aleatorio'
 import Card from "./components/layout/Card";
-import ListaAlunos from "./components/repeticao/ListaAlunos";
+
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default _ =>
     <div className="App">
         <h1> Fundamentos React </h1>
         <div className="Cards">
-            <Card titlulo="#06 - Repetição" color="#FF4C65">
+            <Card titulo="#08 - Par ou Impar" color="#982395">
+                <ParOuImpar numero={21}></ParOuImpar>
+                <UsuarioInfo usuario={{nome: 'Fernando'}}/>
+                <UsuarioInfo usuario={{sobrenome: 'Lara'}}/>
+            </Card> 
+            <Card titulo="#07 - Tabela Produtos" color="#FF4C65">
+                <TabelaProdutos></TabelaProdutos>
+            </Card> 
+
+            <Card titulo="#06 - Repetição" color="#FF4C65">
                 <ListaAlunos></ListaAlunos>
             </Card> 
 

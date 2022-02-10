@@ -1,6 +1,6 @@
 import React from 'react';
 import alunos from '../../data/alunos'
-console.log(alunos);
+
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (props) => {
         const listaAlunos = alunos.map(aluno => {
