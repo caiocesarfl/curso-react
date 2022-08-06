@@ -14,7 +14,7 @@ import FamiliaMembro from "./components/basicos/FamiliaMembro"
 import Primeiro from './components/basicos/Primeiro'
 import ComParametro from './components/basicos/ComParametro';
 import Fragment from './components/basicos/Fragment';
-import Aleatorio from './components/basicos/Aleatorio'
+import Aleatorio from './components/basicos/Aleatorio2'
 import Card from "./components/layout/Card";
 
 
