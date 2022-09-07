@@ -14,8 +14,10 @@ import FamiliaMembro from "./components/basicos/FamiliaMembro"
 import Primeiro from './components/basicos/Primeiro'
 import ComParametro from './components/basicos/ComParametro';
 import Fragment from './components/basicos/Fragment';
-import Aleatorio from './components/basicos/Aleatorio2'
+import Aleatorio from './components/basicos/Aleatorio2';
+import {Kt} from "./components/basicos/Kt1";
 import Card from "./components/layout/Card";
+import Megasena from "./components/mega/Megasena";
 
 
 // eslint-disable-next-line import/no-anonymous-default-export
@@ -23,6 +25,12 @@ export default _ =>
     <div className="App">
         <h1> Fundamentos React </h1>
         <div className="Cards">
+            <Card titulo="#13 - Megasena" color="#424242">
+                <Megasena> </Megasena>
+            </Card> 
+            <Card titulo="#12 - KT" color="#424242">
+                <Kt> </Kt>
+            </Card> 
             <Card titulo="#11 - Contador" color="#424242">
                 <Contador numeroInicial={10} passoInicial={3}></Contador>
             </Card> 
